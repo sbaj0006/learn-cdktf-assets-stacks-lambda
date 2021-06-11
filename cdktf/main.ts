@@ -32,7 +32,7 @@ class LambdaStack extends TerraformStack {
     super(scope, name);
 
     new aws.AwsProvider(this, "provider", {
-      region: "us-west-2",
+      region: "us-east-1",
     });
 
     // Create random value
